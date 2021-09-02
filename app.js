@@ -15,7 +15,7 @@ function translate() {
     .then (response => response.json())
     .then(json => {
         var translatedText = json.contents.translated;
-        output.innerText = textInput.value
+        output.innerText = translatedText
     });
 }
 
