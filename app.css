@@ -39,6 +39,7 @@ textarea {
   width: 100%;
   padding: 1rem 1rem;
   border-radius: 5px;
+  font-family: var(--other-heading);
   font-size: 20px;
 }
 #btn-translate {
