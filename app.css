@@ -1,0 +1,72 @@
+/* Font for navigation */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+/* Font for other  */
+@import url("https://fonts.googleapis.com/css2?family=Glory:ital,wght@1,300&display=swap");
+
+:root {
+  --nav-heading: "Ubuntu", sans-serif;
+  --other-heading: "Glory", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: chartreuse;
+  padding: 1rem;
+}
+h1 {
+  text-align: center;
+  font-family: var(--nav-heading);
+}
+main {
+  padding: 1rem;
+  margin: auto;
+  max-width: 600px;
+}
+textarea {
+  height: 15vh;
+  width: 100%;
+  border-radius: 5px;
+  padding: 1rem 1rem;
+  font-size: 20px;
+}
+#output {
+  border: 1px solid black;
+  height: 15vh;
+  width: 100%;
+  padding: 1rem 1rem;
+  border-radius: 5px;
+  font-size: 20px;
+}
+#btn-translate {
+  padding: 1rem 1rem;
+  background-color: #FFF47D;
+  font-weight: bolder;
+  cursor: pointer;
+  border: none;
+  margin: 1rem 1rem;
+}
+h3{
+  font-family: var(--other-heading);
+  margin: 1rem;
+}
+footer{
+    background-color: #C2F784;
+    text-align: center;
+    padding: 1rem 1rem;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+footer p{
+    padding: 1rem;
+    max-width: 700px;
+    margin: auto;
+}
+#footer-heading{
+    font-family: var(--other-heading);
+    font-weight: bolder;
+}
