@@ -1,5 +1,5 @@
 var btnTranslate = document.querySelector("#btn");
-var url = "../next/index.html"
+var url = "../Minion Talk/index.html"
 function translate(){
     console.log("clicked")
     window.open(url, '_blank')
